@@ -72,10 +72,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCL    &kp AT      &kp HASH   &kp DLLR   &kp PRCNT        &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&none  &kp LEFT    &kp DOWN    &kp UP     &kp RIGHT  &kp PAGE_UP      &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&none  &bt BT_PRV  &bt BT_NXT  &kp LC(C)  &kp LC(V)  &kp PAGE_DOWN    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                               &kp LGUI   &trans     &kp SPACE        &kp RET    &trans     &kp RALT
+&none           &kp EXCL    &kp AT      &kp HASH   &kp DLLR   &kp PRCNT        &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&none           &kp LEFT    &kp DOWN    &kp UP     &kp RIGHT  &kp PAGE_UP      &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&bt BT_CLR_ALL  &bt BT_PRV  &bt BT_NXT  &kp LC(C)  &kp LC(V)  &kp PAGE_DOWN    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+                                        &kp LGUI   &trans     &kp SPACE        &kp RET    &trans     &kp RALT
             >;
         };
     };
